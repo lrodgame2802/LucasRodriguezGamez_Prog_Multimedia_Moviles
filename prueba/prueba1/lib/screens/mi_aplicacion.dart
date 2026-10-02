@@ -12,7 +12,7 @@ class MiAplicacion extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text(
-            "TITULO",
+            "PMDM - Lucas Rodriguez Gamez",
             style: GoogleFonts.acme(),
             /*
         // TextStyle(
@@ -26,6 +26,7 @@ class MiAplicacion extends StatelessWidget {
             textAlign: TextAlign.center,
             overflow: TextOverflow.fade,
           ),
+          backgroundColor: Colors.amber,
         ),
         body: Center(
           child: Column(

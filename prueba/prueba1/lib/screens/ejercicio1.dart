@@ -1,0 +1,47 @@
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:prueba1/menu_lateral.dart';
+
+class Ejercicio1 extends StatelessWidget {
+  const Ejercicio1({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Primer ejercicio',
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Ejercicio 1'),
+          backgroundColor: Colors.blueGrey,
+        ),
+        body: Center(
+          child: Column(
+            children: [
+              Text(
+                "Lucas Rodríguez Gámez",
+                style: GoogleFonts.islandMoments(
+                  color: const Color.fromARGB(255, 39, 90, 41),
+                  fontSize: 50,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                "https://github.com/lrodgame2802/LucasRodriguezGamez_Prog_Multimedia_Moviles",
+                style: GoogleFonts.firaCode(
+                  color: Colors.black,
+                  fontSize: 20,
+                  backgroundColor: Colors.greenAccent,
+                  decoration: TextDecoration.underline,
+                  decorationColor: Colors.black,
+                  decorationThickness: 3,
+                ),
+              ),
+            ],
+          ),
+        ),
+        drawer: MenuLateral(),
+      ),
+    );
+  }
+}
