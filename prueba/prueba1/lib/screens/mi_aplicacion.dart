@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:prueba1/menu_lateral.dart';
+import 'package:pmdm_lucas_rodriguez/menu_lateral.dart';
 
 class MiAplicacion extends StatelessWidget {
   const MiAplicacion({super.key});
@@ -10,9 +10,11 @@ class MiAplicacion extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: const Color.fromARGB(255, 253, 248, 230),
         appBar: AppBar(
+          centerTitle: true,
           title: Text(
-            "PMDM - Lucas Rodriguez Gamez",
+            "Flutter",
             style: GoogleFonts.acme(),
             /*
         // TextStyle(
@@ -27,43 +29,6 @@ class MiAplicacion extends StatelessWidget {
             overflow: TextOverflow.fade,
           ),
           backgroundColor: Colors.amber,
-        ),
-        body: Center(
-          child: Column(
-            children: [
-              Text(
-                "UNO",
-                style: TextStyle(
-                  color: const Color.fromARGB(255, 0, 0, 0),
-                  fontSize: 40,
-                  decoration: TextDecoration.lineThrough,
-                  decorationColor: const Color.fromARGB(255, 230, 234, 0),
-                  fontFamily: 'Game',
-                ),
-              ),
-              Text(
-                "DOS",
-                style: TextStyle(
-                  color: const Color.fromARGB(255, 0, 0, 0),
-                  fontSize: 40,
-                  decoration: TextDecoration.lineThrough,
-                  decorationColor: const Color.fromARGB(255, 0, 68, 216),
-                  fontFamily: 'Game',
-                ),
-              ),
-              Text(
-                "TRES",
-                style: TextStyle(
-                  color: const Color.fromARGB(255, 0, 0, 0),
-                  fontSize: 40,
-                  decoration: TextDecoration.lineThrough,
-                  decorationColor: Colors.red,
-                  fontFamily: 'Game',
-                ),
-              ),
-              Icon(Icons.access_alarm, color: Colors.amber, size: 200),
-            ],
-          ),
         ),
         drawer: MenuLateral(),
       ),

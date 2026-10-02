@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prueba1/screens/mi_aplicacion.dart';
+import 'package:pmdm_lucas_rodriguez/screens/mi_aplicacion.dart';
 
 void main() {
   runApp(MiAplicacion());

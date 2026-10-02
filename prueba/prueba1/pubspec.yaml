@@ -1,4 +1,4 @@
-name: prueba1
+name: pmdm_lucas_rodriguez
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -61,8 +61,15 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/elefante.jpg
-
+    - assets\images\laSuperFoto.jpeg
+    - assets\images\lupin.jpeg
+    - assets\images\jigen.jpeg
+    - assets\images\goemon.jpeg
+    - assets\images\americana.jpg
+    - assets\images\flower.jpg
+    - assets\images\demon.jpg
+    - assets\images\goodkid.jpg
+    - assets\images\soul.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
