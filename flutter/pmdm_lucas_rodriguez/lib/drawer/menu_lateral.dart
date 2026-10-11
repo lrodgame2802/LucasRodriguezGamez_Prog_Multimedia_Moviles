@@ -5,6 +5,10 @@ import 'package:pmdm_lucas_rodriguez/screens/ejercicio_3.dart';
 import 'package:pmdm_lucas_rodriguez/screens/ejercicio_4.dart';
 import 'package:pmdm_lucas_rodriguez/screens/ejercicio_5.dart';
 import 'package:pmdm_lucas_rodriguez/screens/ejercicio_2.dart';
+import 'package:pmdm_lucas_rodriguez/screens/ejercicio_6.dart';
+import 'package:pmdm_lucas_rodriguez/screens/ejercicio_7.dart';
+import 'package:pmdm_lucas_rodriguez/screens/ejercicio_8.dart';
+import 'package:pmdm_lucas_rodriguez/screens/ejercicio_9.dart';
 
 class MenuLateral extends StatelessWidget {
   const MenuLateral({super.key});
@@ -116,6 +120,74 @@ class MenuLateral extends StatelessWidget {
                 Navigator.of(context).push(
                   MaterialPageRoute(
                     builder: (BuildContext context) => const Ejercicio5(),
+                  ),
+                );
+              },
+            ),
+          ),
+          Ink(
+            color: const Color.fromARGB(126, 251, 250, 250),
+            child: ListTile(
+              title: Text(
+                "Ejercicio nº6",
+                style: GoogleFonts.alumniSans(fontSize: 25),
+              ),
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (BuildContext context) => const Ejercicio6(),
+                  ),
+                );
+              },
+            ),
+          ),
+          Ink(
+            color: const Color.fromARGB(126, 251, 250, 250),
+            child: ListTile(
+              title: Text(
+                "Ejercicio nº7",
+                style: GoogleFonts.alumniSans(fontSize: 25),
+              ),
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (BuildContext context) => const Ejercicio7(),
+                  ),
+                );
+              },
+            ),
+          ),
+          Ink(
+            color: const Color.fromARGB(126, 251, 250, 250),
+            child: ListTile(
+              title: Text(
+                "Ejercicio nº8",
+                style: GoogleFonts.alumniSans(fontSize: 25),
+              ),
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (BuildContext context) => const Ejercicio8(),
+                  ),
+                );
+              },
+            ),
+          ),
+          Ink(
+            color: const Color.fromARGB(126, 251, 250, 250),
+            child: ListTile(
+              title: Text(
+                "Ejercicio nº9",
+                style: GoogleFonts.alumniSans(fontSize: 25),
+              ),
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (BuildContext context) => const Ejercicio9(),
                   ),
                 );
               },

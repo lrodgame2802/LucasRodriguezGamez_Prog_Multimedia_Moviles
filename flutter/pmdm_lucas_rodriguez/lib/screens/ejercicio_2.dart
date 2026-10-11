@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:pmdm_lucas_rodriguez/drawer/menu_lateral.dart';
 
 class Ejercicio2 extends StatelessWidget {
   const Ejercicio2({super.key});
@@ -30,6 +31,7 @@ class Ejercicio2 extends StatelessWidget {
             ],
           ),
         ),
+        drawer: MenuLateral(),
     );
   }
 }

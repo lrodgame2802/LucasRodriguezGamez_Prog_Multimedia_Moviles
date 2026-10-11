@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pmdm_lucas_rodriguez/drawer/menu_lateral.dart';
 
 class Ejercicio3 extends StatelessWidget {
   const Ejercicio3({super.key});
@@ -12,7 +13,7 @@ class Ejercicio3 extends StatelessWidget {
           backgroundColor: Colors.redAccent,
         ),
         body: Center(
-          child: Column(
+          child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             spacing: 50,
             children: [
@@ -22,6 +23,7 @@ class Ejercicio3 extends StatelessWidget {
             ],
           ),
         ),
+        drawer: MenuLateral(),
     );
   }
 }

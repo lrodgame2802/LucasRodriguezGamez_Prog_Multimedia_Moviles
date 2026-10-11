@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:pmdm_lucas_rodriguez/menu_lateral.dart';
+import 'package:pmdm_lucas_rodriguez/drawer/menu_lateral.dart';
 
 class MiAplicacion extends StatelessWidget {
   const MiAplicacion({super.key});

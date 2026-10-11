@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   google_fonts: ^9.0.0
   uicons: ^1.0.1
+  simple_gradient_text: ^1.4.0
 
 dev_dependencies:
   flutter_test:
@@ -70,6 +71,9 @@ flutter:
     - assets\images\demon.jpg
     - assets\images\goodkid.jpg
     - assets\images\soul.jpg
+    - assets\images\perro.png
+    - assets\images\gato.png
+    - assets\images\calabaza.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -86,6 +90,9 @@ flutter:
     - family: Game
       fonts:
         - asset: assets\fonts\Game-Font.ttf
+    - family: RetroBendy
+      fonts:
+        - asset: assets\fonts\Retro Blendy.otf
   
   #
   # For details regarding fonts from package dependencies,
